@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="LibertyQueue">
+        <wb-resource deploy-path="/" source-path="/" tag="defaultRootSource"/>
+        <dependent-module archiveName="LibertyQueueWeb.war" deploy-path="/" handle="module:/resource/LibertyQueueWeb/LibertyQueueWeb">
+            <dependent-object>Module_1489421316657</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="LibertyQueueEjb.jar" deploy-path="/" handle="module:/resource/LibertyQueueEjb/LibertyQueueEjb">
+            <dependent-object>Module_1489441196701</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="LibertyQueueEjbClient.jar" deploy-path="/" handle="module:/resource/LibertyQueueEjbClient/LibertyQueueEjbClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
